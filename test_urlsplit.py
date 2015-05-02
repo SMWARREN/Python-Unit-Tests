@@ -21,12 +21,12 @@ class TestUrlsplit(TestCase):
         print('')
 
     def test_Garabage(self):
-        HttpTest = Urlsplit().SplitIntoList('fuckyourcouch.com/bitch')
+        HttpTest = Urlsplit().SplitIntoList('loveyourcouch.com/rich')
         '''actualTest = ['http', 'www.makeit.org', '/demo/appl', 'input=3']'''
         print(HttpTest)
 
         self.assertEqual(HttpTest,'error in input',msg='not equal')
-
+        print('Testing loveyourcouch.com/rich ')
         print('Garabage Test Successful')
         print('')
 

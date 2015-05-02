@@ -10,8 +10,8 @@ class Urlsplit:
         else:
             return 'error in input'
 
-print('%s' % Urlsplit().SplitIntoList('http://www.makeit.org/demo/appl?input=3'))
+'''print('%s' % Urlsplit().SplitIntoList('http://www.makeit.org/demo/appl?input=3'))
 
-print('%s' % Urlsplit().SplitIntoList('http://.iloveyou.com/whatsup/hey.php?chicken=1'))
+print('%s' % Urlsplit().SplitIntoList('http://.iloveyou.com/whatsup/hey.php?chicken=1'))'''
 
 
